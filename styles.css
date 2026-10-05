@@ -1232,6 +1232,31 @@ svg {
   color: #a0afb8;
   font-size: var(--text-small);
 }
+.footer-credits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.75rem;
+  padding-top: 0.5rem;
+  color: #a0afb8;
+  font-size: var(--text-small);
+}
+.footer-credits p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 0.35rem;
+}
+.footer-credits a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--cream);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.footer-credits a:hover {
+  color: var(--blue);
+}
 .mobile-whatsapp {
   display: none;
 }
